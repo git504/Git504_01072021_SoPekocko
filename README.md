@@ -15,7 +15,7 @@ Pour faire fonctionner ce projet, vous devez installer :
 
 ![LOGO](./15674356878125_image2.png)
 
-## 🌶  Installation Node.js sous **UBUNTU** 
+## 🌶  Installation Node.js sous **UBUNTU** 🐧
 
 > Depuis le terminal UBUNTU, installer en global la version "**Recommended For Most Users**", ici, la **version 14**;
 
@@ -26,7 +26,7 @@ Pour faire fonctionner ce projet, vous devez installer :
 
 ***
 
-## 🌶  Installation CLI Angular sous **UBUNTU**
+## 🌶  Installation CLI Angular sous **UBUNTU** 🐧
   
 1. `nodejs --npm`
 2. `sudo npm install -g @angular/cli`
