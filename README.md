@@ -1,6 +1,6 @@
 # SoPekocko 🌶️🌶️🌶️
 
-### [Go to REPO](https://github.com/git504/SoPekocko)
+### [🔗 Go to REPO](https://github.com/git504/SoPekocko)
 
 **API** sécurisée pour une application d'avis gastronomiques.   
 
