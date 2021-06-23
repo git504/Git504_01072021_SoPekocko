@@ -49,11 +49,11 @@ Pour faire fonctionner ce projet, vous devez installer :
 2. `npm install`
 3. `ng serve` 
 
-Le frontend est disponible sur http://localhost:4200/
+Le frontend est disponible sur [http://localhost:4200/]
 
 ### back
 
 1. `cd backend`
 2. `nodemon server` 
 
-Le backend est disponible sur http://localhost:3000/
+Le backend est disponible sur [http://localhost:3000/]
