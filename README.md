@@ -6,7 +6,7 @@ API sécurisée pour une application d'avis gastronomiques - 6eme projet du parc
 
 Pour faire fonctionner ce projet **OPENCLASSROOMS** 
 
-## sous UBUNTU Pour faire fonctionner le projet, vous devez installer :
+## sous **UBUNTU**, vous devez installer :
 - [NodeJS](https://nodejs.org/en/download/) en version 12.14 ou 14.0 
 - [Angular CLI](https://github.com/angular/angular-cli) en version 7.0.2.
 - [node-sass](https://www.npmjs.com/package/node-sass) : attention à prendre la version correspondante à NodeJS. Pour Node 14.0 par exemple, installer node-sass en version 4.14+.
@@ -15,7 +15,7 @@ Pour faire fonctionner ce projet **OPENCLASSROOMS**
 
 ![LOGO](./15674356878125_image2.png)
 
-## 🌶  Installation Node.js sur **UBUNTU** 
+## 🌶  Installation Node.js sous **UBUNTU** 
 
 > la version NodeJS en version 12.14 ou 14.0 fonctionne en local;
 > ou bien installez en global la version "**Recommended For Most Users**", ici, la version 14;
@@ -27,7 +27,7 @@ Pour faire fonctionner ce projet **OPENCLASSROOMS**
 
 ***
 
-## 🌶  Installation CLI Angular sur **UBUNTU**
+## 🌶  Installation CLI Angular sous **UBUNTU**
   
 1. `nodejs --npm`
 2. `sudo npm install -g @angular/cli`
