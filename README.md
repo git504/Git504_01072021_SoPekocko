@@ -1,10 +1,10 @@
 # SoPekocko 🌶️🌶️🌶️
+backend
 
-### [🔗 Go to REPO](https://github.com/git504/SoPekocko)
-
-**API** sécurisée pour une application d'avis gastronomiques.   
+### [🔗 Go to REPO](https://github.com/git504/SoPekocko)  
 
 Projet **6 /7** du parcours DEV-WEB **@** **OPENCLASSROOMS**
+**API** sécurisée pour une application d'avis gastronomiques. 
 
 Pour faire fonctionner ce projet, vous devez installer :
 - [NodeJS](https://nodejs.org/en/download/) en version 12.14 ou 14.0 
