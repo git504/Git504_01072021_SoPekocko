@@ -23,6 +23,8 @@ app.use(helmet());
 
 /******** middleware général 1 pour définir les headers de toutes les requetes *********/
 app.use((req, res, next) => {
+  // res.json({ message: 'Votre requête a bien été reçue !' }); 
+
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
     "Access-Control-Allow-Headers",
