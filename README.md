@@ -55,7 +55,24 @@ Le frontend est disponible sur http://localhost:4200/
 ### back
 
 1. `cd backend`
-2. `nodemon server` 
+2. `npm install`
+3. `nodemon server` 
 
 Le backend est disponible sur http://localhost:3000/   
 [local_Host_3000](http://localhost:3000/)
+
+***
+### install dependencies
+
+`cd backend` and then...`npm init` and then...
+
+[] express:  `npm install --save express`
+[] mongoose:  `npm install --save mongoose`
+[] mongoose-unique-validator: `npm install --save mongoose-unique-validator`
+[] bcrypt:  `npm install --save bcrypt`
+[] jsonwebtoken: `npm install --save jsonwebtoken`
+[] multer: `npm install --save multer`
+[] dotenv: `npm install --save dotenv`
+[] helmet:  `npm install --save helmet`
+
+***
