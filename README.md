@@ -62,17 +62,17 @@ Le backend est disponible sur http://localhost:3000/
 [local_Host_3000](http://localhost:3000/)
 
 ***
-### install dependencies
+### TASK-LIST **install dependencies**
 
 `cd backend` and then...`npm init` and then...
 
-[] express:  `npm install --save express`
-[] mongoose:  `npm install --save mongoose`
-[] mongoose-unique-validator: `npm install --save mongoose-unique-validator`
-[] bcrypt:  `npm install --save bcrypt`
-[] jsonwebtoken: `npm install --save jsonwebtoken`
-[] multer: `npm install --save multer`
-[] dotenv: `npm install --save dotenv`
-[] helmet:  `npm install --save helmet`
+- [x] express:  `npm install --save express`
+- [x] mongoose:  `npm install --save mongoose`
+- [x] mongoose-unique-validator: `npm install --save mongoose-unique-validator`
+- [x] bcrypt:  `npm install --save bcrypt`
+- [x] jsonwebtoken: `npm install --save jsonwebtoken`
+- [x] multer: `npm install --save multer`
+- [x] dotenv: `npm install --save dotenv`
+- [x] helmet:  `npm install --save helmet`
 
 ***
