@@ -38,7 +38,7 @@ const errorHandler = (error) => {
   }
 };
 
-/******** Création du serveur Node *********/
+/******** Création du serveur Node (req, res) *********/
 const server = http.createServer(app);
 
 server.on("error", errorHandler);
@@ -49,5 +49,5 @@ server.on("listening", () => {
   console.log("Listening on " + bind);
 });
 
-/******** Écoute des requetes sur le port par défaut *********/
+/******** Écoute des requetes sur le port par défaut VERS L.17*********/
 server.listen(port);
