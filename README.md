@@ -76,3 +76,6 @@ Le backend est disponible sur http://localhost:3000/
 - [x] helmet:  `npm install --save helmet`
 
 ***
+**Thankie** to my Coach OpenClassrooms Amouzoun . DEVELOPPEUR FULLSTACK WEB ET MOBILE ;
+- [x] [website](https://creamind.fr/)
+- [x] [Github](https://github.com/benytto888Z)
