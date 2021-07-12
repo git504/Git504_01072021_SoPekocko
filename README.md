@@ -9,7 +9,7 @@ Projet **6 /7** du parcours DEV-WEB **@** **OPENCLASSROOMS**
 Pour faire fonctionner ce projet, vous devez installer :
 - [NodeJS](https://nodejs.org/en/download/)  
   > `nodejs -v`
-- [Angular CLI](https://github.com/angular/angular-cli) en version 7.0.2. 
+- [Angular CLI](https://github.com/angular/angular-cli)  
   > `ng --version`
   > `npm install -g @angular/cli`  version`@1.2.3`
 - [node-sass](https://www.npmjs.com/package/node-sass) : 
