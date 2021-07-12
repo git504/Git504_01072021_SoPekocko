@@ -8,65 +8,68 @@ Projet **6 /7** du parcours DEV-WEB **@** **OPENCLASSROOMS**
 
 Pour faire fonctionner ce projet, vous devez installer :
 - [NodeJS](https://nodejs.org/en/download/)  
-  > `nodejs -v`
 - [Angular CLI](https://github.com/angular/angular-cli)  
-  > `ng --version`
-  > `npm install -g @angular/cli`  version`@1.2.3`
-- [node-sass](https://www.npmjs.com/package/node-sass) : 
-  > `cd frontend`    
-  > `npm i node-sass@4.14.1`       
+- [node-sass](https://www.npmjs.com/package/node-sass) :       
 ***
 
 ![LOGO](./15674356878125_image2.png)
 
 ## 🌶  Installation Node.js sous **UBUNTU** 🐧
 
-> Depuis le 💻 terminal UBUNTU🐧🐧🐧, installer en global la version "**Recommended For Most Users**", ici, la **version 14**;
-
-1. `sudo apt-get install curl`
-2. `curl -sl https://deb.nodesource.com/setup_14.x | sudo -E bash -`
-3. `sudo apt-get install nodejs`
-4. `nodejs --v`
-
+> Depuis le 💻 terminal
+1. `nodejs --v`
+2. `sudo apt-get install curl`
+3. `curl -sl https://deb.nodesource.com/setup_14.x | sudo -E bash -`
+4. `sudo apt-get install nodejs`
+5. `nodejs --v`
 ***
 
 ## 🌶  Installation CLI Angular sous **UBUNTU** 🐧
   
+> Depuis le 💻 terminal
 1. `nodejs --npm`
-2. `sudo npm install -g @angular/cli`
-
+2. `npm install -g @angular/cli`  version`@1.2.3`
 ***
 
-## 🌶  Connexion à **MongoDB**
+## 🌶  Installation sass
+  
+> Depuis le 💻 terminal
+1. `cd frontend`
+2. `npm i node-sass@4.14.1` 
+***
 
-1. Dans le fichier APP.JS, ligne 20, remplacer `"login:mdp"` par un accès valide. 
-2. Les accès sont fournis dans le document des livrables (paragraphe n°2).
+## 🌶  Connexion à **MongoDB Atlas (cloud)**
 
+1. Dans le dossier `backend`, `exemple.env` access on demande **ONLY**
 ***
 
 ## 🌶  Lancement de l'application
 
 ### front
 
+> Depuis le 💻 terminal
 1. `cd frontend`
 2. `npm install`
-3. `ng serve` 
+4. `ng serve` 
 
 [local_Host_4200](http://localhost:4200/)
 Le frontend est disponible sur http://localhost:4200/   
 
 ### back
 
+> Depuis le 💻 terminal
 1. `cd backend`
 2. `npm install`
 3. `nodemon server` 
 
 [local_Host_3000](http://localhost:3000/)
 Le backend est disponible sur http://localhost:3000/   
-
 ***
-### TASK-LIST **install dependencies**
 
+en supplément...
+### Gestion des dépendances 
+
+> Depuis le 💻 terminal
 `cd backend` and then...`npm init` and then...
 
 - [x] express:  `npm install --save express`
