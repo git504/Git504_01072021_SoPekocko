@@ -13,9 +13,9 @@ Pour faire fonctionner ce projet, vous devez installer :
   > `ng --version`
   > `npm install -g @angular/cli`  version`@1.2.3`
 - [node-sass](https://www.npmjs.com/package/node-sass) : 
-  > `npm install node-sass`
-  > Prendre la version correspondante à NodeJS. 
-  > Installer node-sass à part.
+  > `npm install node-sass`   
+  > Prendre la version correspondante à NodeJS.    
+  > Installer node-sass à part.   
 ***
 
 ![LOGO](./15674356878125_image2.png)
