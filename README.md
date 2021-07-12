@@ -13,9 +13,8 @@ Pour faire fonctionner ce projet, vous devez installer :
   > `ng --version`
   > `npm install -g @angular/cli`  version`@1.2.3`
 - [node-sass](https://www.npmjs.com/package/node-sass) : 
-  > `npm install node-sass`   
-  > Prendre la version correspondante à NodeJS.    
-  > Installer node-sass à part.   
+  > `cd frontend`    
+  > `npm i node-sass@4.14.1`       
 ***
 
 ![LOGO](./15674356878125_image2.png)
@@ -53,8 +52,8 @@ Pour faire fonctionner ce projet, vous devez installer :
 2. `npm install`
 3. `ng serve` 
 
-Le frontend est disponible sur http://localhost:4200/   
 [local_Host_4200](http://localhost:4200/)
+Le frontend est disponible sur http://localhost:4200/   
 
 ### back
 
@@ -62,8 +61,8 @@ Le frontend est disponible sur http://localhost:4200/
 2. `npm install`
 3. `nodemon server` 
 
-Le backend est disponible sur http://localhost:3000/   
 [local_Host_3000](http://localhost:3000/)
+Le backend est disponible sur http://localhost:3000/   
 
 ***
 ### TASK-LIST **install dependencies**
@@ -78,6 +77,7 @@ Le backend est disponible sur http://localhost:3000/
 - [x] multer: `npm install --save multer`
 - [x] dotenv: `npm install --save dotenv`
 - [x] helmet:  `npm install --save helmet`
+- [x] password-validator: `npm install --save password-validator`
 
 ***
 **Thankie** to my Coach OpenClassrooms Amouzoun . DEVELOPPEUR FULLSTACK WEB ET MOBILE ;
