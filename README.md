@@ -53,7 +53,6 @@ Pour faire fonctionner ce projet, vous devez installer :
 4. `ng serve` 
 
 [local_Host_4200](http://localhost:4200/)
-Le frontend est disponible sur http://localhost:4200/   
 
 ### back
 
@@ -63,7 +62,6 @@ Le frontend est disponible sur http://localhost:4200/
 3. `nodemon server` 
 
 [local_Host_3000](http://localhost:3000/)
-Le backend est disponible sur http://localhost:3000/   
 ***
 
 en supplément...
