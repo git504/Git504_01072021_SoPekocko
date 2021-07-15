@@ -21,4 +21,7 @@ const storage = multer.diskStorage({
   },
 });
 
-module.exports = multer({ storage }).single("image");
+module.exports = (req, res, next) => {
+	multer({ storage }).single('image');
+	next();
+}
