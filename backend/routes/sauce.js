@@ -1,12 +1,15 @@
-/******** Importation *********/
+//Importation
 const express = require("express");
 const router = express.Router();
+const auth = require("../middleware/auth");
 const sauceCtrl = require("../controllers/sauce");
 
-const auth = require("../middleware/auth");
 const multer = require("../middleware/multer-config");
+const sauceCheck = require("../middleware/createSauceCheck");
+const modifyCheck = require("../middleware/modifySauceCheck");
 
 /******** Les routes *********/
+
 // middleware de la route Afficher toutes les sauces
 router.get("/", auth, sauceCtrl.getAllSauces);
 
@@ -15,10 +18,10 @@ router.get("/", auth, sauceCtrl.getAllSauces);
 router.get("/:id", auth, sauceCtrl.getOneSauce);
 
 //middleware de la route Créer une sauce
-router.post("/", auth, multer, sauceCtrl.createSauce);
+router.post("/", auth, multer, sauceCheck, sauceCtrl.createSauce);
 
 // middleware de la route modifier une sauce
-router.put("/:id", auth, multer, sauceCtrl.modifySauce);
+router.put("/:id", auth, multer, modifyCheck, sauceCtrl.modifySauce);
 
 //middleware de la route pour supprimer une sauce
 router.delete("/:id", auth, sauceCtrl.deleteSauce);

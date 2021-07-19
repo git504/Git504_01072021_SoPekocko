@@ -40,7 +40,7 @@ Pour faire fonctionner ce projet, vous devez installer :
 
 ## 🌶  Connexion à **MongoDB Atlas (cloud)**
 
-1. Dans le dossier `backend`, `exemple.env` access on demande **ONLY**
+1. Dans le dossier `backend`, `exemple.env` 
 ***
 
 ## 🌶  Lancement de l'application

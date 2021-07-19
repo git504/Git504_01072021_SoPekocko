@@ -25,7 +25,7 @@ export class SignupComponent implements OnInit {
     });
   }
 
-  onSignup() {
+  onSignup(event:Event) {
     this.loading = true;
     const email = this.signupForm.get('email').value;
     const password = this.signupForm.get('password').value;
@@ -50,6 +50,7 @@ export class SignupComponent implements OnInit {
         console.error(error);
         this.errorMsg = error.message;
     });
+    event.preventDefault();
   }
 
 }
