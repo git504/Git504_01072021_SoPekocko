@@ -10,7 +10,7 @@ exports.signup = (req, res, next) => {
   console.log(req.body);
   // le body est bien recu ...
   bcrypt
-    .hash(req.body.password, 10)
+    .hash(req.body.password, 75)
     .then((hash) => {
       // nouvel utilisateur, enregistrement dans la bdd
       const user = new User({
@@ -47,7 +47,7 @@ exports.login = (req, res, next) => {
             userId: user._id,
             //payload....
             token: jwt.sign({ userId: user._id }, process.env.TOKEN, {
-              expiresIn: "24h",
+              expiresIn: "1h",
             }),
           });
         })
