@@ -1,5 +1,6 @@
 // Importations
 const Sauce = require("../models/Sauce");
+//fs signifie « file system » (soit « système de fichiers » en français). Il nous donne accès aux fonctions qui nous permettent de modifier le système de fichiers, y compris aux fonctions permettant de supprimer les fichiers.
 const fs = require("fs");
 
 // Exportations de méthodes pour les routes
@@ -21,6 +22,7 @@ exports.getOneSauce = (req, res, next) => {
 
 // Créer une sauce
 exports.createSauce = (req, res, next) => {
+  //modifier route post
   const sauceObject = JSON.parse(req.body.sauce);
 
   const sauce = new Sauce({

@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// middleware qui permet l'accès statique à des images
+// middleware qui permet l'accès statique à des images _dirname= nom du dossier ou ns ns trouvons
 app.use("/images", express.static(path.join(__dirname, "images")));
 
 // Utilisation des routes
