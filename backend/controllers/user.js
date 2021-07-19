@@ -18,7 +18,7 @@ exports.signup = (req, res, next) => {
         password: hash,
       });
       // PW crypté
-      // console.log(user);
+      console.log(user);
       user
         .save()
         .then(() => res.status(201).json({ message: "Utilisateur créé !" }))

@@ -8,8 +8,7 @@ const multer = require("../middleware/multer-config");
 const sauceCheck = require("../middleware/createSauceCheck");
 const modifyCheck = require("../middleware/modifySauceCheck");
 
-/******** Les routes *********/
-
+//Les routes
 // middleware de la route Afficher toutes les sauces
 router.get("/", auth, sauceCtrl.getAllSauces);
 
